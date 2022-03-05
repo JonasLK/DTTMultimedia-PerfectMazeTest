@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5390965429634812920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5390965429634812925}
+  - component: {fileID: 5390965429634812922}
+  - component: {fileID: 5390965429634812923}
+  m_Layer: 0
+  m_Name: ScriptManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5390965429634812925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5390965429634812920}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5390965429634812922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5390965429634812920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: add7b92acfa2f1945951b525d8624214, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5390965429634812923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5390965429634812920}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b99a2a6cbe77e9b4e8d16dc96902823b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomDistance: 10
+  randomStart: 0
+  spawnersToAwakenAtOnce: 5
+  unevenMaze: 0
+  roomAmount: 100
+  width: 10
+  height: 10
+  unevenSpawner: {fileID: 3893597551314755086, guid: 37ea15c83c84cee40811b9b0243c6f75, type: 3}
+  roomSpawner: {fileID: 3893597551314755086, guid: 37ea15c83c84cee40811b9b0243c6f75, type: 3}
+  startRoom: {fileID: 7800419178573061854, guid: 375c02477af5c104288b24a0a9acde92, type: 3}
+  stairRoom: {fileID: 8360195840712391914, guid: 7590500a78ace2f45b074be53cc5f50d, type: 3}
+  endRoom: {fileID: 7449049641722693240, guid: 2844cc6dc3b0a2a4dad1db1f1dd9c6d8, type: 3}
+  toSpawnRooms:
+  - {fileID: 8360195840712391914, guid: 7590500a78ace2f45b074be53cc5f50d, type: 3}
+  unevenSpawnerSpawners: []
+  roomSpawners: []
+  spawnedRooms: []
+  walls: []
+  mazeButtons: {fileID: 0}
+  parentToSpawn: {fileID: 6576351231027820423, guid: 5a366065b4950e549a332096c06e5191, type: 3}
+  selectedStartSpawner: {fileID: 0}
